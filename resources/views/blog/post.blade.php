@@ -6,8 +6,8 @@
 
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="{{ assets('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ assets('css/custom.css') }}">
 </head>
 <body>
     <header>
@@ -42,7 +42,7 @@
                 <article class="post-item post-detail">
                     <div class="post-item-image">
                         <a href="#">
-                            <img src="img/Post_Image_1.jpg" alt="">
+                            <img src="{{ assets('img/Post_Image_1.jpg') }}" alt="">
                         </a>
                     </div>
 
@@ -74,7 +74,7 @@
                     <div class="media">
                       <div class="media-left">
                         <a href="#">
-                          <img alt="Author 1" src="img/author.jpg" class="media-object">
+                          <img alt="Author 1" src="{{ assets('img/author.jpg') }}" class="media-object">
                         </a>
                       </div>
                       <div class="media-body">
@@ -249,7 +249,7 @@
                                 <li>
                                     <div class="post-image">
                                         <a href="#">
-                                            <img src="img/Post_Image_5_thumb.jpg" />
+                                            <img src="{{ assets('img/Post_Image_5_thumb.jpg') }}" />
                                         </a>
                                     </div>
                                     <div class="post-body">
@@ -262,7 +262,7 @@
                                 <li>
                                     <div class="post-image">
                                         <a href="#">
-                                            <img src="img/Post_Image_4_thumb.jpg" />
+                                            <img src="{{ assets('img/Post_Image_4_thumb.jpg') }}" />
                                         </a>
                                     </div>
                                     <div class="post-body">
@@ -275,7 +275,7 @@
                                 <li>
                                     <div class="post-image">
                                         <a href="#">
-                                            <img src="img/Post_Image_3_thumb.jpg" />
+                                            <img src="{{ assets('img/Post_Image_3_thumb.jpg') }}" />
                                         </a>
                                     </div>
                                     <div class="post-body">
@@ -331,6 +331,6 @@
         </div>
     </footer>
 
-    <script src="js/bootstrap.min.js"></script>
+    <script src="{{ assets ('js/bootstrap.min.js') }}"></script>
 </body>
 </html>
