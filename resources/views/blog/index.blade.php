@@ -1,5 +1,5 @@
-@extends('layout.main')
-@section('')
+@extends('layouts.main')
+@section('content')
 
     <div class="container">
         <div class="row">
@@ -7,7 +7,7 @@
                 <article class="post-item">
                     <div class="post-item-image">
                         <a href="post.html">
-                            <img src="{{ assets('img/Post_Image_1.jpg') }}" alt="">
+                            <img src="{{ asset('img/Post_Image_1.jpg') }}" alt="">
                         </a>
                     </div>
                     <div class="post-item-body">
@@ -34,7 +34,7 @@
                 <article class="post-item">
                     <div class="post-item-image">
                         <a href="post.html">
-                            <img src="{{ assets('img/Post_Image_2.jpg') }}" alt="">
+                            <img src="{{ asset('img/Post_Image_2.jpg') }}" alt="">
                         </a>
                     </div>
                     <div class="post-item-body">
@@ -61,7 +61,7 @@
                 <article class="post-item">
                     <div class="post-item-image">
                         <a href="post.html">
-                            <img src="{{ assets('img/Post_Image_3.jpg') }}" alt="">
+                            <img src="{{ asset('img/Post_Image_3.jpg') }}" alt="">
                         </a>
                     </div>
                     <div class="post-item-body">
@@ -145,7 +145,7 @@
                                 <li>
                                     <div class="post-image">
                                         <a href="#">
-                                            <img src="{{assets('img/Post_Image_5_thumb.jpg')}}" />
+                                            <img src="{{ asset('img/Post_Image_4_thumb.jpg') }}"/>
                                         </a>
                                     </div>
                                     <div class="post-body">
@@ -158,7 +158,7 @@
                                 <li>
                                     <div class="post-image">
                                         <a href="#">
-                                            <img src="{{assets(('img/Post_Image_4_thumb.jpg')}}" />
+                                            <img src="{{ asset('img/Post_Image_5_thumb.jpg') }}"/>
                                         </a>
                                     </div>
                                     <div class="post-body">
@@ -171,7 +171,7 @@
                                 <li>
                                     <div class="post-image">
                                         <a href="#">
-                                            <img src="{{assets('img/Post_Image_3_thumb.jpg')}}" />
+                                            <img src="{{ asset('img/Post_Image_3_thumb.jpg') }}" />
                                         </a>
                                     </div>
                                     <div class="post-body">

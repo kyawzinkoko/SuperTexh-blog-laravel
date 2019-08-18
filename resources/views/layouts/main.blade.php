@@ -5,9 +5,10 @@
     <title>SuperTexh</title>
 
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
-    <link rel="stylesheet" href="{{ assets('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ assets('css/custom.css') }}`">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 </head>
 <body>
     <header>
@@ -21,7 +22,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">MyBlog</a>
+              <a class="navbar-brand" href="#">SuperTexh</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -35,12 +36,13 @@
           </div><!-- /.container -->
         </nav>
     </header>
+    @yield('content')
 
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <p class="copyright">&copy; 2016 Edo Masaru</p>
+                    <p class="copyright">&copy;  2019 SuperTexh | All Rights Reserved.</p>
                 </div>
                 <div class="col-md-4">
                     <nav>
@@ -56,6 +58,6 @@
         </div>
     </footer>
 
-    <script src="{{assets'(js/bootstrap.min.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
 </body>
 </html>

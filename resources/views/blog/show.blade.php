@@ -1,4 +1,4 @@
-@extends('layout.main')
+@extends('layouts.main')
 
 @section('content')
     <div class="container">
@@ -7,7 +7,7 @@
                 <article class="post-item post-detail">
                     <div class="post-item-image">
                         <a href="#">
-                            <img src="{{ assets('img/Post_Image_1.jpg') }}" alt="">
+                            <img src="{{ asset('img/Post_Image_1.jpg') }}" alt="">
                         </a>
                     </div>
 
@@ -39,7 +39,7 @@
                     <div class="media">
                       <div class="media-left">
                         <a href="#">
-                          <img alt="Author 1" src="{{ assets('img/author.jpg') }}" class="media-object">
+                          <img alt="Author 1" src="{{ asset('img/author.jpg') }}" class="media-object">
                         </a>
                       </div>
                       <div class="media-body">
@@ -214,7 +214,7 @@
                                 <li>
                                     <div class="post-image">
                                         <a href="#">
-                                            <img src="{{ assets('img/Post_Image_5_thumb.jpg') }}" />
+                                            <img src="{{ asset('img/Post_Image_5_thumb.jpg') }}" />
                                         </a>
                                     </div>
                                     <div class="post-body">
@@ -227,7 +227,7 @@
                                 <li>
                                     <div class="post-image">
                                         <a href="#">
-                                            <img src="{{ assets('img/Post_Image_4_thumb.jpg') }}" />
+                                            <img src="{{ asset('img/Post_Image_4_thumb.jpg') }}" />
                                         </a>
                                     </div>
                                     <div class="post-body">
@@ -240,7 +240,7 @@
                                 <li>
                                     <div class="post-image">
                                         <a href="#">
-                                            <img src="{{ assets('img/Post_Image_3_thumb.jpg') }}" />
+                                            <img src="{{ asset('img/Post_Image_3_thumb.jpg') }}" />
                                         </a>
                                     </div>
                                     <div class="post-body">
